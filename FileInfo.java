@@ -8,6 +8,7 @@ public class FileInfo {
 
 
             if(f.exists()) {
+                
                 System.out.print("\n\tFile Name :"+f.getName());
                 System.out.print("\n\tFile Location :"+f.getAbsolutePath());
                 System.out.print("\n\tFile Writable :"+f.canWrite());
