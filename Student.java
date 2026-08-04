@@ -1,8 +1,14 @@
 public class Student {
-    int yob;
-    String name;
+    int y;
+    String n;
     
     public int check() {
-        return yob;
+        return y;
+    }
+
+    Student(String name, int yob) {
+        n = name;
+        y = yob;
+
     }
 }
