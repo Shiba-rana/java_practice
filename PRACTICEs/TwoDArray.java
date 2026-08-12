@@ -19,6 +19,7 @@ public class TwoDArray {
 
         // System.out.println("\n\t");
 
+        
         // input
         Scanner sc = new Scanner(System.in);
 
