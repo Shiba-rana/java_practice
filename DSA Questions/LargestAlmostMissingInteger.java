@@ -1,7 +1,7 @@
 import java.util.HashMap;
 import java.util.Map;
 
-public class Solution {
+public class LargestAlmostMissingInteger {
     public int largestInteger(int[] nums, int k) {
         int n = nums.length;
         
@@ -46,7 +46,7 @@ public class Solution {
     }
 
     public static void main(String[] args) {
-        Solution solver = new Solution();
+        LargestAlmostMissingInteger solver = new LargestAlmostMissingInteger();
 
         int[] nums1 = {3, 9, 2, 1, 7};
         int k1 = 3;
