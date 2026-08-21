@@ -35,8 +35,8 @@ public class LargestAlmostMissingInteger {
         
         // Case 3: 1 < k < n
         int ans = -1;
-        if (counts.get(nums) == 1) {
-            ans = Math.max(ans, nums);
+        if (counts.get(nums[0]) == 1) {
+            ans = Math.max(ans, nums[0]);
         }
         if (counts.get(nums[n - 1]) == 1) {
             ans = Math.max(ans, nums[n - 1]);
